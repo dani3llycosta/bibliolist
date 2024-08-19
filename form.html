@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibliolist - Cadastre seu livro</title>
+
+    <!-- style -->
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/form.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" href="./assets/img/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav id="navigationSite">
+        <a href="index.html">Home</a>
+        <a href="#">Feed</a>
+        <a href="#">Livros cadastrados</a>
+        <a href="#">Meu perfil</a>
+        <a href="#">Favoritos</a>
+        <a href="#">Contato</a>
+    </nav>
+
+    <main id="main-content">
+        <div id="formContainer">
+            <h1>Cadastre seu livro</h1>
+            <form onsubmit="handleSubmit(event)">
+                <label for="title">Título:</label>
+                <input type="text" id="title" name="title" placeholder="Digite aqui..." required>
+
+                <label for="author">Autor:</label>
+                <input type="text" id="author" name="author" placeholder="Digite aqui..." required>
+
+                <label for="genre">Gênero:</label>
+                <input type="text" id="genre" name="genre" placeholder="Digite aqui..." required>
+
+                <label for="publisher">Editora:</label>
+                <input type="text" id="publisher" name="publisher" placeholder="Digite aqui...">
+
+                <label for="language">Idioma:</label>
+                <input type="text" id="language" name="language" placeholder="Digite aqui...">
+
+                <label for="year">Ano de Publicação:</label>
+                <input type="number" id="year" name="year" min="1000" max="9999" required placeholder="Digite aqui...">
+
+                <button type="submit">Cadastrar Livro</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>

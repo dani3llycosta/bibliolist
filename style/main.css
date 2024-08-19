@@ -1,0 +1,82 @@
+body {
+    overflow: hidden;
+    background-image: url('../assets/img/bg5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: #fff;
+}
+
+#navigationSite {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0 0 1.7rem -1rem;
+    border: 1px solid transparent;
+    background-color: rgba(189, 189, 189, 0.192);
+    padding: 1.5rem;
+}
+
+#navigationSite a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-left: 2.8rem;
+    transition: transform 0.7s ease;
+}
+
+#navigationSite a:hover {
+    transform: scale(1.2);
+}
+
+.main-title,
+.subtitle {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-title {
+    margin-top: 20rem;
+    font-size: 3rem;
+    font-family: 'Raleway';
+    font-weight: 800;
+}
+
+.subtitle {
+    margin-top: 0.826rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+#buttonRegister {
+    display: flex;
+    justify-content: center;
+}
+
+#registerBook {
+    font-size: 1.3rem;
+    margin-top: 3rem;
+    border: 1px solid white;
+    border-radius: 3rem;
+    color: white;
+    background-color: transparent;
+    padding: 1rem;
+    width: 20rem;
+}
+
+#buttonRegister a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: center;
+    transition: transform 0.7s ease;
+}
+
+#buttonRegister a:hover {
+    border-color: rgb(67, 67, 168);
+    transform: scale(1.1);
+}
