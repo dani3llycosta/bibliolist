@@ -9,6 +9,18 @@ body {
     margin: 0; 
 }
 
+body {
+    overflow: auto;
+    background-image: url('../assets/img/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100vw;
+    color: #fff;
+    margin: 0;
+}
+
 #navigationSite {
     display: flex;
     justify-content: center;
