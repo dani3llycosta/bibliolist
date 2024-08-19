@@ -58,10 +58,10 @@ function showHttpRequest() {
     const httpRequestElement = document.getElementById('httpRequest');
     
     if (isHttpRequestVisible) {
-        httpRequestElement.textContent = ''; // Hide the HTTP request
+        httpRequestElement.textContent = '';
         isHttpRequestVisible = false;
     } else {
-        httpRequestElement.textContent = httpRequest; // Show the HTTP request
+        httpRequestElement.textContent = httpRequest;
         isHttpRequestVisible = true;
     }
 }
