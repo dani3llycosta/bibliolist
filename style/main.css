@@ -1,11 +1,13 @@
 body {
-    overflow: hidden;
+    overflow: auto;
     background-image: url('../assets/img/bg5.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    background-attachment: fixed;
+    height: 100%;
     width: 100vw;
     color: #fff;
+    margin: 0;
 }
 
 #navigationSite {
