@@ -1,11 +1,12 @@
 body {
-    overflow: hidden;
+    overflow: auto; 
     background-image: url('../assets/img/bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100vw;
     color: #fff;
+    margin: 0; 
 }
 
 #navigationSite {
@@ -32,13 +33,15 @@ body {
 }
 
 #formContainer {
-    width: 60rem;
-    height: 44rem;
+    width: 55rem;
+    height: auto; 
+    max-height: 44rem; 
     margin: 5rem auto;
     padding: 20px;
     background-color: rgba(122, 119, 128, 0.13);
     color: white;
     border-radius: 1rem;
+    overflow-y: auto; 
 }
 
 h1 {
